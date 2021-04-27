@@ -3,5 +3,5 @@ sudo su
 yum install httpd -y
 systemctl start httpd 
 systemctl eneble httpd 
-echo "Hello World" > /var/www/html/index.html
+echo "Hello World from server 2" > /var/www/html/index.html
 
